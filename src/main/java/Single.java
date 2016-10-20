@@ -34,4 +34,5 @@ public class Single {
                 "a='" + a + '\'' +
                 '}';
     }
+
 }
