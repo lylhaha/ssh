@@ -21,9 +21,11 @@ public class ObjectStream {
         }finally {
             try {
                 objectOutputStream.close();
+
                 objectInputStream.close();
             } catch (IOException e) {
                 e.printStackTrace();
+
             }
         }
     }
